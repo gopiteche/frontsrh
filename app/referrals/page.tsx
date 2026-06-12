@@ -27,7 +27,7 @@ type Row = {
 
 // const API_BASE = "http://54.146.28.151:5000/api";
 // const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:5000/api";
-const API_BASE = "http://54.90.5.134:5000";
+const API_BASE = "http://54.90.5.134:5000/api";
 
 export default function ReferralsPage() {
   const [districts, setDistricts] = useState<District[]>([]);
